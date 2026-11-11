@@ -8,6 +8,8 @@ monitoring, logging and automated tests. Everything runs locally: no API keys, c
 > Predictions are statistical estimates learned from historical data. They are **not** guaranteed outcomes,
 > and feature importance / retention insights describe association, **not causation**.
 
+ [Link Text](https://churnsens.streamlit.app/ "Hover Title")
+
 ## Results (actual output of `python train.py`)
 
 Selected model: **Gradient Boosting** (chosen by highest 5-fold cross-validated ROC-AUC on the training set).
