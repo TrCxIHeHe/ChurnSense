@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Local runtime state
+logs/*.log
+artifacts/prediction_log.csv
+models/*.tmp
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# NOTE: trained models, metrics and the dataset are intentionally kept in the
+# project so it runs out of the box. Remove these lines to ignore them in git:
+# models/*.joblib
+# data/*.csv

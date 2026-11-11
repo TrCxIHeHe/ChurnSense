@@ -1,0 +1,170 @@
+[
+  {
+    "experiment_id": "exp-20261111-004242-0079ae",
+    "run_id": "20261111_004136",
+    "timestamp": "2026-11-11T00:42:42",
+    "model_name": "Logistic Regression",
+    "hyperparameters": {
+      "C": 21.368329072358772,
+      "class_weight": "balanced"
+    },
+    "cv_roc_auc": 0.8461334291371386,
+    "test_metrics": {
+      "accuracy": 0.7380782918149467,
+      "precision": 0.5034602076124568,
+      "recall": 0.782258064516129,
+      "f1": 0.6126315789473684,
+      "roc_auc": 0.839762306259043
+    },
+    "dataset": {
+      "name": "IBM Telco Customer Churn (IBM Cloud Pak for Data sample dataset)",
+      "rows": 7043,
+      "train_rows": 5616,
+      "test_rows": 1405
+    },
+    "selected": false,
+    "model_version": "v20261111_004136"
+  },
+  {
+    "experiment_id": "exp-20261111-004242-52a47e",
+    "run_id": "20261111_004136",
+    "timestamp": "2026-11-11T00:42:42",
+    "model_name": "Random Forest",
+    "hyperparameters": {
+      "class_weight": null,
+      "max_depth": 12,
+      "max_features": "sqrt",
+      "min_samples_leaf": 11,
+      "n_estimators": 171
+    },
+    "cv_roc_auc": 0.8485067958014897,
+    "test_metrics": {
+      "accuracy": 0.7957295373665481,
+      "precision": 0.6556776556776557,
+      "recall": 0.48118279569892475,
+      "f1": 0.5550387596899224,
+      "roc_auc": 0.8394968720398881
+    },
+    "dataset": {
+      "name": "IBM Telco Customer Churn (IBM Cloud Pak for Data sample dataset)",
+      "rows": 7043,
+      "train_rows": 5616,
+      "test_rows": 1405
+    },
+    "selected": false,
+    "model_version": "v20261111_004136"
+  },
+  {
+    "experiment_id": "exp-20261111-004242-260efb",
+    "run_id": "20261111_004136",
+    "timestamp": "2026-11-11T00:42:42",
+    "model_name": "Gradient Boosting",
+    "hyperparameters": {
+      "learning_rate": 0.05864129169696527,
+      "max_depth": 3,
+      "min_samples_leaf": 4,
+      "n_estimators": 133,
+      "subsample": 0.6125253169822235
+    },
+    "cv_roc_auc": 0.8502653630551075,
+    "test_metrics": {
+      "accuracy": 0.799288256227758,
+      "precision": 0.6595744680851063,
+      "recall": 0.5,
+      "f1": 0.5688073394495413,
+      "roc_auc": 0.8426274344481571
+    },
+    "dataset": {
+      "name": "IBM Telco Customer Churn (IBM Cloud Pak for Data sample dataset)",
+      "rows": 7043,
+      "train_rows": 5616,
+      "test_rows": 1405
+    },
+    "selected": true,
+    "model_version": "v20261111_004136"
+  },
+  {
+    "experiment_id": "exp-20261111-065433-6331e3",
+    "run_id": "20261111_065156",
+    "timestamp": "2026-11-11T06:54:33",
+    "model_name": "Logistic Regression",
+    "hyperparameters": {
+      "C": 21.368329072358772,
+      "class_weight": "balanced"
+    },
+    "cv_roc_auc": 0.8461334291371386,
+    "test_metrics": {
+      "accuracy": 0.7380782918149467,
+      "precision": 0.5034602076124568,
+      "recall": 0.782258064516129,
+      "f1": 0.6126315789473684,
+      "roc_auc": 0.839762306259043
+    },
+    "dataset": {
+      "name": "IBM Telco Customer Churn (IBM Cloud Pak for Data sample dataset)",
+      "rows": 7043,
+      "train_rows": 5616,
+      "test_rows": 1405
+    },
+    "selected": false,
+    "model_version": "v20261111_065156"
+  },
+  {
+    "experiment_id": "exp-20261111-065433-6b8647",
+    "run_id": "20261111_065156",
+    "timestamp": "2026-11-11T06:54:33",
+    "model_name": "Random Forest",
+    "hyperparameters": {
+      "class_weight": null,
+      "max_depth": 12,
+      "max_features": "sqrt",
+      "min_samples_leaf": 11,
+      "n_estimators": 171
+    },
+    "cv_roc_auc": 0.8485067958014897,
+    "test_metrics": {
+      "accuracy": 0.7957295373665481,
+      "precision": 0.6556776556776557,
+      "recall": 0.48118279569892475,
+      "f1": 0.5550387596899224,
+      "roc_auc": 0.8394968720398881
+    },
+    "dataset": {
+      "name": "IBM Telco Customer Churn (IBM Cloud Pak for Data sample dataset)",
+      "rows": 7043,
+      "train_rows": 5616,
+      "test_rows": 1405
+    },
+    "selected": false,
+    "model_version": "v20261111_065156"
+  },
+  {
+    "experiment_id": "exp-20261111-065433-fdc4a0",
+    "run_id": "20261111_065156",
+    "timestamp": "2026-11-11T06:54:33",
+    "model_name": "Gradient Boosting",
+    "hyperparameters": {
+      "learning_rate": 0.05864129169696527,
+      "max_depth": 3,
+      "min_samples_leaf": 4,
+      "n_estimators": 133,
+      "subsample": 0.6125253169822235
+    },
+    "cv_roc_auc": 0.8502596375395752,
+    "test_metrics": {
+      "accuracy": 0.799288256227758,
+      "precision": 0.6595744680851063,
+      "recall": 0.5,
+      "f1": 0.5688073394495413,
+      "roc_auc": 0.8426274344481571
+    },
+    "dataset": {
+      "name": "IBM Telco Customer Churn (IBM Cloud Pak for Data sample dataset)",
+      "rows": 7043,
+      "train_rows": 5616,
+      "test_rows": 1405
+    },
+    "selected": true,
+    "model_version": "v20261111_065156"
+  }
+]

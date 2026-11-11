@@ -1,0 +1,248 @@
+{
+  "Logistic Regression": [
+    {
+      "feature": "MonthlyCharges",
+      "importance": 1.6045899905014065
+    },
+    {
+      "feature": "tenure",
+      "importance": 1.3261616832955259
+    },
+    {
+      "feature": "InternetService_Fiber optic",
+      "importance": 1.1790560347699228
+    },
+    {
+      "feature": "InternetService_DSL",
+      "importance": 0.951550794234168
+    },
+    {
+      "feature": "Contract_Two year",
+      "importance": 0.8109667141670842
+    },
+    {
+      "feature": "TotalCharges",
+      "importance": 0.6527248163043166
+    },
+    {
+      "feature": "Contract_Month-to-month",
+      "importance": 0.6384062640115818
+    },
+    {
+      "feature": "StreamingMovies_Yes",
+      "importance": 0.484462536654564
+    },
+    {
+      "feature": "StreamingTV_Yes",
+      "importance": 0.4672531324075218
+    },
+    {
+      "feature": "StreamingMovies_No internet service",
+      "importance": 0.4605959542428419
+    },
+    {
+      "feature": "StreamingTV_No internet service",
+      "importance": 0.4605959542428419
+    },
+    {
+      "feature": "TechSupport_No internet service",
+      "importance": 0.4605959542428419
+    },
+    {
+      "feature": "DeviceProtection_No internet service",
+      "importance": 0.4605959542428419
+    },
+    {
+      "feature": "OnlineSecurity_No internet service",
+      "importance": 0.4605959542428419
+    },
+    {
+      "feature": "InternetService_No",
+      "importance": 0.4605959542428419
+    },
+    {
+      "feature": "OnlineBackup_No internet service",
+      "importance": 0.4605959542428419
+    },
+    {
+      "feature": "PhoneService_No",
+      "importance": 0.2874337884621859
+    },
+    {
+      "feature": "MultipleLines_No phone service",
+      "importance": 0.2874337884621859
+    },
+    {
+      "feature": "MultipleLines_Yes",
+      "importance": 0.28024405966179156
+    },
+    {
+      "feature": "PaperlessBilling_No",
+      "importance": 0.27209740269103
+    }
+  ],
+  "Random Forest": [
+    {
+      "feature": "tenure",
+      "importance": 0.14905643281574332
+    },
+    {
+      "feature": "TotalCharges",
+      "importance": 0.10906563398876416
+    },
+    {
+      "feature": "Contract_Month-to-month",
+      "importance": 0.10476761213830421
+    },
+    {
+      "feature": "MonthlyCharges",
+      "importance": 0.0718306111732525
+    },
+    {
+      "feature": "OnlineSecurity_No",
+      "importance": 0.06071869779869392
+    },
+    {
+      "feature": "TechSupport_No",
+      "importance": 0.05609754598141228
+    },
+    {
+      "feature": "InternetService_Fiber optic",
+      "importance": 0.05209565226239156
+    },
+    {
+      "feature": "PaymentMethod_Electronic check",
+      "importance": 0.04991329189580096
+    },
+    {
+      "feature": "Contract_Two year",
+      "importance": 0.04322419356800897
+    },
+    {
+      "feature": "InternetService_DSL",
+      "importance": 0.026832160843580984
+    },
+    {
+      "feature": "OnlineBackup_No",
+      "importance": 0.02010712299537952
+    },
+    {
+      "feature": "Contract_One year",
+      "importance": 0.017533193850255473
+    },
+    {
+      "feature": "OnlineSecurity_Yes",
+      "importance": 0.01521050538511504
+    },
+    {
+      "feature": "DeviceProtection_No",
+      "importance": 0.013282929923179766
+    },
+    {
+      "feature": "TechSupport_Yes",
+      "importance": 0.012536617938031786
+    },
+    {
+      "feature": "PaperlessBilling_Yes",
+      "importance": 0.011075363094194053
+    },
+    {
+      "feature": "PaperlessBilling_No",
+      "importance": 0.010552933242959072
+    },
+    {
+      "feature": "OnlineBackup_Yes",
+      "importance": 0.009843812858839344
+    },
+    {
+      "feature": "DeviceProtection_No internet service",
+      "importance": 0.008973992910702574
+    },
+    {
+      "feature": "OnlineBackup_No internet service",
+      "importance": 0.008686686488414315
+    }
+  ],
+  "Gradient Boosting": [
+    {
+      "feature": "Contract_Month-to-month",
+      "importance": 0.3274543484196664
+    },
+    {
+      "feature": "tenure",
+      "importance": 0.15621442245283962
+    },
+    {
+      "feature": "TotalCharges",
+      "importance": 0.10464037731929239
+    },
+    {
+      "feature": "MonthlyCharges",
+      "importance": 0.0897393035189511
+    },
+    {
+      "feature": "InternetService_Fiber optic",
+      "importance": 0.0785231272115912
+    },
+    {
+      "feature": "OnlineSecurity_No",
+      "importance": 0.05726564608519523
+    },
+    {
+      "feature": "PaymentMethod_Electronic check",
+      "importance": 0.046603151927376754
+    },
+    {
+      "feature": "TechSupport_No",
+      "importance": 0.038426786879067254
+    },
+    {
+      "feature": "MultipleLines_No",
+      "importance": 0.01611603781001666
+    },
+    {
+      "feature": "PaperlessBilling_Yes",
+      "importance": 0.012551864933695566
+    },
+    {
+      "feature": "OnlineBackup_No",
+      "importance": 0.009403875540377695
+    },
+    {
+      "feature": "StreamingMovies_Yes",
+      "importance": 0.007797526804710847
+    },
+    {
+      "feature": "Contract_Two year",
+      "importance": 0.007024106314264919
+    },
+    {
+      "feature": "SeniorCitizen_No",
+      "importance": 0.0061695310753432315
+    },
+    {
+      "feature": "SeniorCitizen_Yes",
+      "importance": 0.005899884432423996
+    },
+    {
+      "feature": "PaperlessBilling_No",
+      "importance": 0.005151007952483392
+    },
+    {
+      "feature": "Contract_One year",
+      "importance": 0.003520066139055056
+    },
+    {
+      "feature": "StreamingTV_Yes",
+      "importance": 0.0027767502276136303
+    },
+    {
+      "feature": "MultipleLines_Yes",
+      "importance": 0.0027274307538471226
+    },
+    {
+      "feature": "PaymentMethod_Credit card (automatic)",
+      "importance": 0.002361037192592409
+    }
+  ]
+}

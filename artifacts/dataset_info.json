@@ -1,0 +1,24 @@
+{
+  "name": "IBM Telco Customer Churn (IBM Cloud Pak for Data sample dataset)",
+  "source_url": "https://raw.githubusercontent.com/IBM/telco-customer-churn-on-icp4d/master/data/Telco-Customer-Churn.csv",
+  "source_page": "https://github.com/IBM/telco-customer-churn-on-icp4d",
+  "local_path": "C:\\Users\\triam\\Downloads\\ChurnSense_MLOps_Mini_Project\\ChurnSense\\data\\Telco-Customer-Churn.csv",
+  "is_synthetic": false,
+  "rows_raw": 7043,
+  "columns_raw": 21,
+  "cleaning_report": {
+    "rows_raw": 7043,
+    "missing_before": {
+      "TotalCharges": 11
+    },
+    "duplicate_rows": 22,
+    "rows_without_target_dropped": 0,
+    "total_charges_missing": 11,
+    "rows_clean": 7021,
+    "churn_rate": 0.2644922375729953,
+    "identifier_removed": "customerID"
+  },
+  "train_rows": 5616,
+  "test_rows": 1405,
+  "split": "80/20 stratified, random_state=42"
+}

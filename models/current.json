@@ -1,0 +1,7 @@
+{
+  "version": "v20261111_065156",
+  "model_file": "churnsense_v20261111_065156.joblib",
+  "metadata_file": "churnsense_v20261111_065156_metadata.json",
+  "selected_algorithm": "Gradient Boosting",
+  "updated": "2026-11-11T06:54:36"
+}
